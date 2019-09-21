@@ -28,7 +28,7 @@ a {
   }
 
   .bg-primary {
-    background-color: #222222 !important;
+    background-color: #dedede !important;
   }
 
   .text-primary {
@@ -36,14 +36,31 @@ a {
   }
 
   #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-    color: #555555;
+    color: rgba(0, 0, 0, 0.7) !important;
   }
-  
   #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #555555 !important;
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0 1rem;
+  }
+  .navbar-dark .navbar-brand {
+    color: rgba(0, 0, 0, 0.7) !important;
   }
 
   @media (min-width: 992px) {
+    #mainNav {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    #mainNav .navbar-brand {
+      color: rgba(0, 0, 0, 0.7);
+    }
+    #mainNav .navbar-brand:hover {
+      color: #555555;
+    }
     #mainNav.navbar-scrolled .navbar-brand:hover {
       color: #555555;
     }
@@ -58,8 +75,7 @@ a {
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(73, 73, 73, 0.8)), to(rgba(82, 66, 92, 0.8))), url("../img/headerimage.jpg");
-    background: linear-gradient(to bottom, rgba(73, 73, 73, 0.8) 0%, rgba(82, 66, 92, 0.8) 100%), url("../img/headerimage.jpg");
+    background:  url("../img/bannerlowrescropped.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
