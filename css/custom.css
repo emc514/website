@@ -49,7 +49,18 @@ a {
     color: rgba(0, 0, 0, 0.7) !important;
   }
 
+  #headshot {
+    width: 250px;
+  }
+  @media (min-width: 350px) {
+    #headshot {
+      width: 300px;
+    }
+  }
   @media (min-width: 992px) {
+    #headshot {
+      width: 400px;
+    }
     #mainNav {
       -webkit-box-shadow: none;
       box-shadow: none;
@@ -93,3 +104,4 @@ a {
     background-attachment: scroll;
     background-size: cover;
   }
+
