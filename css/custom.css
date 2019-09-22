@@ -70,12 +70,24 @@ a {
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
       color: #555555;
     }
+    header.masthead {
+      height: 100%;
+      min-height: 40rem;
+      padding-top: 0px;
+      padding-bottom: 0;
+    }
+    header.masthead p {
+      font-size: 1.15rem;
+    }
+    header.masthead h1 {
+      font-size: 3rem;
+    }
   }
 
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background:  url("../img/bannerlowrescropped.png");
+    background:  url("../img/bannerhirescrop.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
