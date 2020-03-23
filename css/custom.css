@@ -73,6 +73,10 @@ a {
     font-family: 'Poppins', sans-serif !important;
     padding-right: 10%;
     padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: double;
+    border-color: #e5624a;
   }
   .testimonial {
     border-color: #4cd9b1;
@@ -83,6 +87,12 @@ a {
   }
   body {
     background-color: #b8debc;
+  }
+  .about-header {
+    color: #e5624a;
+  }
+  .about-divider {
+    border-color: #769c7a !important;
   }
 
   .experience {
@@ -97,24 +107,17 @@ a {
     padding-left: 20%;
   }
   .about-container {
-    border-style: none;
-    border-width: 2px;
     background-color: #e6f7e7;
     margin-left: 5%;
     margin-right: 5%;
   }
   .approach-container {
     background-color: #ffffff;
-    border-color: #f0cc84;
-    border-style: none;
-    border-width: 2px;
     margin-left: 5%;
     margin-right: 5%;
   }
   .contact-container {
     background-color: #ffffff;
-    border-style: none;
-    border-width: 2px;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -132,6 +135,11 @@ a {
     max-width:100%;
     max-height:100%;
   }
+
+  .fas {
+    color: #e5624a;
+  }
+
 
   @media (min-width: 350px) {
   }
