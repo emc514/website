@@ -16,6 +16,8 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -73,46 +75,18 @@
   </header>
 
   <!-- Approach Section -->
-  <section class="page-section" id="approach">
+  <section class="page-section approach-container" id="approach">
     <div class="container">
       <h2 class="text-center mt-0">My Therapeutic Approach</h2>
-      <!--<hr class="divider my-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Approach 1</h3>
-            <p class="text-muted mb-0">Lalalala!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-star text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Approach 2</h3>
-            <p class="text-muted mb-0">Lalalala!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Approach 3</h3>
-            <p class="text-muted mb-0">Lalalala!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Approach 4</h3>
-            <p class="text-muted mb-0">Lalalala!</p>
-          </div>
-        </div>
-      </div>-->
-      <center>
+      <hr class="divider light my-4">
+
+      <div class="body-text">
       Finding a therapist is not always easy, but it is an important step in a journey towards healing. We live in a world where there is a tendency to praise each other for accomplishing things without help, but when it comes to mental health no one should have to feel alone. As an art therapist, I provide the opportunity to work with art as a form of expression, which can deepen the therapeutic process beyond that of just talk-therapy.
       <br><br>You do not have to have any background in art, experience using art materials, or even consider yourself "artistic" in order to do art therapy.
       <br><br>
       Art therapy is especially successful for clients suffering from anxiety, depression, trauma, and substance abuse. Although art therapy is for all ages and populations, in my work I specialize with adults and teens.
-      </center><br>
+      </div>
+      
       <!--<h4>Types of therapy:</h4>
       Art Therapy<br>
       Attachment-based<br>
@@ -122,69 +96,88 @@
   </section>
 
   <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
+  <section class="page-section about-container" id="about">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">About Elise</h2>
+          <center><h2 class="mt-0">About Elise</h2></center>
           <hr class="divider light my-4">
-          <img id="headshot" src="/img/headshot.jpg"><br><br>
-        </div>
-      </div>
-      <br>
       <!--I am...-->
+       <div class="column headshot">
+        <img id="headshot" class="profile" src="/img/headshot.jpg">
+       </div>
 
-      <h4>Counseling experience:</h4>
-      Art Therapy<br>
-      Attachment-based<br>
-      Cognitive Behavioral (CBT)<br>
-      Transpersonal<br><br>
+       <div class="column testimonial">
 
-      <h4>Qualifications:</h4>
-      Masters Degree in Art Therapy<br>
-      Registered Psychotherapist
-      <br><br>
+        <blockquote>
+          <span class="blockquote-background">
+            Elise has a deep understanding of her client’s needs and their process. 
+            She brings vibrant energy into her work, that is both welcoming and supportive. 
+            Most importantly, she has a way of bringing it all to the surface with 
+            integrity and support.
+          </span>
+          <footer>
+            <cite>
+              Ellie Kraus, MSW
+            </cite>
+          </footer>
+          </blockquote>
 
-      <h4>Testimonials:</h4>
-      "Elise has a deep understanding of her client’s needs and their process. 
-      She brings vibrant energy into her work, that is both welcoming and supportive. 
-      Most importantly, she has a way of bringing it all to the surface with 
-      integrity and support." -Ellie Kraus, MSW
+      </div>
+
+      <div class="column experience">
+        <h4>Counseling experience</h4>
+        <ul class="list-experience">
+          <li>Art Therapy</li>
+          <li>Attachment-based</li>
+          <li>Cognitive Behavioral (CBT)</li>
+          <li> Transpersonal</li>
+        </ul>
+      </div>
+
+      <div class="column qualifications">
+        <h4>Qualifications</h4>
+        <ul class="list-experience">
+          <li>Masters Degree in Art Therapy</li>
+          <li>Registered Psychotherapist</li>
+        </ul>
+      </div>
+
     </div>
   </section>
 
       <!-- Contact Section -->
-      <section class="page-section" id="contact">
+      <section class="page-section contact-container" id="contact">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <h2 class="mt-0">Getting in Touch</h2>
               <hr class="divider my-6">
-                Free 30 minute consultation<br>
-                $80 per session<br><br>
+              <ul class="list-experience">
+                <li>Free 30 minute consultation</li>
+                <li>$80 per session</li>
+              </ul>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-4 ml-auto text-center">
               <i class="fas fa-phone fa-3x mb-3"></i>
-              <div>(303) 532-5646</div>
+              <div class="contact-stuff">(303) 532-5646</div>
             </div>
             <div class="col-lg-4 mr-auto text-center">
               <i class="fas fa-envelope fa-3x mb-3"></i>
               <!-- Make sure to change the email address in anchor text AND the link below! -->
-              <a class="d-block" href="mailto:AuthenticExpressionCounseling@gmail.com">AuthenticExpressionCounseling@gmail.com</a>
+              <a class="d-block contact-stuff" href="mailto:AuthenticExpressionCounseling@gmail.com">AuthenticExpressionCounseling@gmail.com</a>
             </div>
             <div class="col-lg-4 mr-auto text-center">
                 <i class="fas fa-home fa-3x mb-3"></i>
                 <!-- Make sure to change the email address in anchor text AND the link below! -->
-                <div>500 9th Ave #2<br>Longmont, CO</div>
+                <div class="contact-stuff">500 9th Ave #2<br>Longmont, CO</div>
               </div>
           </div>
         </div>
       </section>
 
   <!-- Footer -->
-  <footer class="bg-light py-5">
+  <footer class="py-5 main-footer">
     <div class="container"></div>
   </footer>
 

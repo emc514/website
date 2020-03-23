@@ -36,7 +36,7 @@ a {
   }
 
   #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-    color: rgba(0, 0, 0, 0.7) !important;
+    color: #b2729b !important;
   }
   #mainNav .navbar-nav .nav-item .nav-link.active {
     color: rgba(0, 0, 0, 0.7) !important;
@@ -44,23 +44,98 @@ a {
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(0, 0, 0, 0.7);
     padding: 0 1rem;
+    transition: 0.3s;
   }
   .navbar-dark .navbar-brand {
     color: rgba(0, 0, 0, 0.7) !important;
   }
+  .page-section{
+    overflow: auto;
+  }
+  .contact-stuff {
+    font-family: 'Poppins', sans-serif !important;   
+  }
+
+  h2 {
+    font-family: 'Courgette', cursive !important;
+    font-size: 3rem;
+  }
+  .column {
+    width: 100%;
+    height: 25%;
+    float: left;
+    text-align: center;
+    display: block;
+    padding: auto;
+  }
+  .body-text {
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .testimonial {
+    border-color: #4cd9b1;
+    border-width: 5px;
+    border-style: none;
+    color: #000000;
+    padding-top: 50px;
+  }
+  body {
+    background-color: #b8debc;
+  }
+
+  .experience {
+    padding-top: 50px;
+  }
+  .qualifications {
+    padding-top: 50px;
+  }
+ .list-experience {
+    text-align: left;
+    font-family: 'Poppins', sans-serif !important;   
+    padding-left: 20%;
+  }
+  .about-container {
+    border-style: none;
+    border-width: 2px;
+    background-color: #e6f7e7;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .approach-container {
+    background-color: #ffffff;
+    border-color: #f0cc84;
+    border-style: none;
+    border-width: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .contact-container {
+    background-color: #ffffff;
+    border-style: none;
+    border-width: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+  .bg-primary {
+    background-color: #ffffff !important;
+  }
+
+  .big-text {
+    font-size: 20px;
+  }
 
   #headshot {
-    width: 250px;
+    max-width:100%;
+    max-height:100%;
   }
+
   @media (min-width: 350px) {
-    #headshot {
-      width: 300px;
-    }
   }
   @media (min-width: 992px) {
-    #headshot {
-      width: 400px;
-    }
     #mainNav {
       -webkit-box-shadow: none;
       box-shadow: none;
@@ -68,6 +143,8 @@ a {
     }
     #mainNav .navbar-brand {
       color: rgba(0, 0, 0, 0.7);
+      font-family: 'Courgette', cursive !important;
+      font-size: 1.5rem;
     }
     #mainNav .navbar-brand:hover {
       color: #555555;
@@ -93,6 +170,19 @@ a {
     header.masthead h1 {
       font-size: 3rem;
     }
+    .column {
+      width: 50%;
+      height: 300px;
+      float: left;
+      text-align: center;
+      display: block;
+      padding: auto;
+    }
+    .list-experience {
+      text-align: left;
+      font-family: 'Poppins', sans-serif !important;   
+      padding-left: 35%;
+    }  
   }
 
   header.masthead {
@@ -105,3 +195,56 @@ a {
     background-size: cover;
   }
 
+
+
+
+
+
+  blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    font-size: 1.3rem;
+    padding: 0.5em 2em 0.5em 3em;
+    color: #ffffff;
+}
+
+.blockquote-background {
+  background-color: #2e85a7;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    color: #e5624a;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    color: #e5624a;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    font-size: 1rem;
+    text-align:right;
+    color: #000000;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+
+.main-footer {
+  background-color: #b8debc !important;
+}
